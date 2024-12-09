@@ -1,8 +1,5 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
-import { VitePWA } from 'vite-plugin-pwa';
-
 export default defineConfig({
+  base: '/<3.9yay>/', // Örneğin: '/3yay/'
   plugins: [
     react(),
     VitePWA({
